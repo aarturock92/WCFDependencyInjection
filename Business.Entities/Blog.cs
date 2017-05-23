@@ -1,5 +1,4 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace Business.Entities
 {
@@ -13,7 +12,7 @@ namespace Business.Entities
         public string Name { get; set; }
 
         [DataMember]
-        public string Url { get; set; }
+        public string URL { get; set; }
 
         [DataMember]
         public string Owner { get; set; }
